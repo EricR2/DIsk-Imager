@@ -1,7 +1,7 @@
 Name: Eric Rodriguez
 Description: The main python file called main.py consists of four sections; first is the imported sections, 
 second are the functions, third is the input parser(really is the second one tho), and fourth is what gets answers.
-Original issues with getting the makefile to run python file under ./boo_info name, solution was to copy script 
+Original issues with getting the makefile to run python file under ./boot_info name, solution was to copy script 
 into boot_info at runtime. Script will parse the input and create the hashed files preserving the file path then 
 call on the python file with the parsed arguments. I wont get too much into the python fiel as it has comments. 
 Only other thing worth explaining is the #!/usr/bin/env python3 to ensure interpreter uses python and #!/bin/bash
